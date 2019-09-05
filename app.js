@@ -14,7 +14,7 @@ button.on("click", function() {
     let tbody = d3.select("tbody");
     tbody.remove();
     d3.select("#ufo-table").append("tbody");
-    let inputElement = d3.select("#datetime");
+    let inputElement = d3.select("#timedate");
     let inputValue = inputElement.property("value");
     console.log(inputValue);
     data.map((sight) => {
